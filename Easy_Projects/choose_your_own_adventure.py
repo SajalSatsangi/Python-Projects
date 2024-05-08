@@ -6,6 +6,7 @@ answer = input("You are on a dirt road, it has come to an end and you can go lef
 if answer == "left":
     answer = input("You come to a river, you can walk around it or swim accross? Type walk to walk around and swim to swim across: ").lower()
 
+
     if answer == "swim":
         print("You swam acrros and were eaten by an alligator.")
     elif answer == "walk":
